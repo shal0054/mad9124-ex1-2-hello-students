@@ -15,7 +15,7 @@ function sayHello() {
    targetStudents.forEach(student => {
       console.log(`Hello ${student.firstName} ${student.lastName}`);
    });
-   console.log(targetStudents.length);
+   console.log(`Count of last names starting with D is ${targetStudents.length}`);
 }
 
 sayHello();
