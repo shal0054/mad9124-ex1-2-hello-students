@@ -15,6 +15,7 @@ function sayHello() {
    targetStudents.forEach(student => {
       console.log(`Hello ${student.firstName} ${student.lastName}`);
    });
+   console.log(targetStudents.length);
 }
 
 sayHello();
