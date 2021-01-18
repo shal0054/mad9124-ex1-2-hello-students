@@ -12,7 +12,7 @@ const students = require('./students.json');
 
 function sayHello() {
    const targetStudents = students.filter(student => student.lastName[0] === 'D');
-   targetStudents.forEach(student => {
+   students.forEach(student => {
       console.log(`Hello ${student.firstName} ${student.lastName}`);
    });
    console.log(`Count of last names starting with D is ${targetStudents.length}`);
